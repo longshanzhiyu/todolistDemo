@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import TodoListUI from './TodoListUI';
 
 class TodoList extends Component {
 
 	render() {
 		return (
-			<div>Hello world</div>
+			<TodoListUI />
 		)
 	}
 
