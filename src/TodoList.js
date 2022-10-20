@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
-import TodoListUI from './TodoListUI';
 
 class TodoList extends Component {
 
 	render() {
 		return (
-			<TodoListUI />
+			<div>
+				<div>
+					<input />
+					<button>提交</button>
+				</div>
+				<ul>
+					<li>Dell</li>
+				</ul>
+			</div>
 		)
 	}
 
